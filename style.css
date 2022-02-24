@@ -25,7 +25,7 @@ strong {
   margin-top: 32px;
 }
 
-.intro-chunk > h1 {
+.intro-chunk h1 {
   margin-bottom: 32px;
 }
 
@@ -55,6 +55,10 @@ section {
   margin: 24px auto;
   padding: 16px;
   max-width: 720px;
+}
+
+.card p:last-child {
+  margin: 0;
 }
 
 @media (max-width: 400px) {
